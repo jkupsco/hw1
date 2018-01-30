@@ -26,4 +26,4 @@ let weatherData = {
 
 console.log('Currently it is '+ weatherData.current.temperature + ' degrees and ' + weatherData.current.conditions + '.');
 console.log('Tomorrow it will be '+ weatherData.forecast[0].temperature +' and '+weatherData.forecast[0].conditions+".");
-console.log('The next day we will see '+weatherData.forecast[1].conditions +' skies, with a temperature of '+ weatherData.forecast[1].temperature+".");
+console.log('The next day we will see '+weatherData.forecast[1].conditions +' skies, with a temperature of '+ weatherData.forecast[1].temperature+".")
